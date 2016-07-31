@@ -1,0 +1,22 @@
+uuid: c89c5412-5216-4faf-b019-590a523a062a
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - coop
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: coop_breadcrumbs
+theme: coop
+region: header
+weight: -100
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

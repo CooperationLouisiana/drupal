@@ -1,0 +1,22 @@
+uuid: 58f74aae-0a6e-4193-bcdb-b778d517c3fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - coop
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: coop_search
+theme: coop
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 5cfb6221-61d8-4138-adbc-1373e6bc0341
+langcode: en
+status: true
+dependencies:
+  theme:
+    - coopla
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: coopla_local_actions
+theme: coopla
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: d3792678-3db6-4c67-8164-ca4dcf69e8bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - coop
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: coop_help
+theme: coop
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

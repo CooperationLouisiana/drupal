@@ -1,0 +1,22 @@
+uuid: f902de8e-5de7-4e27-b077-5c973f376974
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - coopla
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: coopla_content
+theme: coopla
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

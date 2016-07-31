@@ -1,0 +1,22 @@
+uuid: af59fd9d-dea2-4ecc-a5b3-0704200d703e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - coopla
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: coopla_messages
+theme: coopla
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

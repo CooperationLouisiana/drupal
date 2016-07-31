@@ -1,0 +1,20 @@
+uuid: 21e57aa2-dbc2-4770-a408-a26807def952
+langcode: en
+status: true
+dependencies:
+  theme:
+    - coop
+_core:
+  default_config_hash: ffxthelqQF8xcr4GTG4HlaNNsluiHftN0pujmQpW0bQ
+id: coop_local_actions
+theme: coop
+region: header
+weight: 20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

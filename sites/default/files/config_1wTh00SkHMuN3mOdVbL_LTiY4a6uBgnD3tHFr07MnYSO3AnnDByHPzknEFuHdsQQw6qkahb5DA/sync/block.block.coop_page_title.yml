@@ -1,0 +1,20 @@
+uuid: 3d0ac5ff-672f-4327-bd11-7797152ab6af
+langcode: en
+status: true
+dependencies:
+  theme:
+    - coop
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: coop_page_title
+theme: coop
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

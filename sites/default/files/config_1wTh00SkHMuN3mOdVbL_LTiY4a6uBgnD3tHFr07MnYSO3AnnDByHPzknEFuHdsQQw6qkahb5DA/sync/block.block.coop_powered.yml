@@ -1,0 +1,22 @@
+uuid: b171cf17-7161-4562-b280-01808074df42
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - coop
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: coop_powered
+theme: coop
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

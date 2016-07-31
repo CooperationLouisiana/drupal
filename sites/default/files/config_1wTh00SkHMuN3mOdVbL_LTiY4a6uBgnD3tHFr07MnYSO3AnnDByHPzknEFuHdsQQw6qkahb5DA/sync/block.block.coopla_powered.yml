@@ -1,0 +1,22 @@
+uuid: 48d31daf-3103-401a-98ed-7aaad65ef733
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - coopla
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: coopla_powered
+theme: coopla
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

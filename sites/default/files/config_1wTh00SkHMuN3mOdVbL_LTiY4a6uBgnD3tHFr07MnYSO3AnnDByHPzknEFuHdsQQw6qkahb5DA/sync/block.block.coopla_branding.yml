@@ -1,0 +1,25 @@
+uuid: 59d78ee3-71aa-40e9-80f6-ba2b5a8bb327
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - coopla
+_core:
+  default_config_hash: Cy3vkpYrD1O5JG-BeEnokF0bByHYDEa8CBfWivB4_SQ
+id: coopla_branding
+theme: coopla
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
